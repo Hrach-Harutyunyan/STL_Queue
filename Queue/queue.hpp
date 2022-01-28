@@ -6,8 +6,9 @@ template <typename T>
 class queue
 {
 private:
-std::list<T> _m_ls;
-int _m_size;
+    std::list<T> _m_ls;
+    int _m_size;
+    
 public:
     queue();
     queue(const queue<T>&);
