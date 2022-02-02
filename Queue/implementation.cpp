@@ -5,6 +5,7 @@ queue<T>::queue():_m_size(0) {}
 
 template <typename T>
 queue<T>::~queue() {}
+
 template <typename T>
 queue<T>::queue(const queue<T>& que) {
     this->_m_ls = que._m_ls;
